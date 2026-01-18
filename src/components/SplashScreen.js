@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import SplitText from './SplitText';
-import { useNavigate } from 'react-router-dom';
+import 'react-router-dom';
 
 // Import your logo image
 import MyCustomLogo from '../images/my_logo.png'; // <--- Update this path to your logo file
@@ -62,5 +62,6 @@ function SplashScreen({ onComplete }) {
     </SplashContainer>
   );
 }
+
 
 export default SplashScreen;

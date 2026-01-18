@@ -688,7 +688,7 @@ export default function LiquidEther(props) {
     BFECC, cursorSize, dt, isBounce, isViscous, iterationsPoisson,
     iterationsViscous, mouseForce, resolution, viscous, colors, autoDemo,
     autoSpeed, autoIntensity, takeoverDuration, autoResumeDelay, autoRampDuration
-  ]);
+  , options]);
 
    // Effect to update options dynamically
    useEffect(() => {
@@ -723,4 +723,5 @@ export default function LiquidEther(props) {
 
 
   return <div ref={mountRef} className={`liquid-ether-container ${className || ''}`} style={style} />;
+
 }

@@ -68,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ⚙️ How to Run Locally
+1. Clone the repo: `git clone https://github.com/Darkskull77/artvault-frontend.git`
+2. Install dependencies: `npm install`
+3. Start the app: `npm start`

@@ -56,7 +56,7 @@ const IconButton = styled.button`
 `;
 
 function TopHeader({ onLogout, toggleTheme }) {
-  const navigate = useNavigate();
+  
   const theme = useTheme(); // Get the current theme object
 
   const handleLogout = () => {
@@ -81,5 +81,6 @@ function TopHeader({ onLogout, toggleTheme }) {
     </HeaderContainer>
   );
 }
+
 
 export default TopHeader;
